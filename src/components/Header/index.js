@@ -5,7 +5,7 @@ import * as styles from './Header.module.scss';
 
 const Header = (props) => (
     <header className={styles.Header}>
-        <h1>EPI</h1>
+        <h1>{props.siteTitle}</h1>
         <nav>
             <ul>
                 <li>
