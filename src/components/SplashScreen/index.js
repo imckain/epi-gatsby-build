@@ -5,7 +5,7 @@ import * as styles from './SplashScreen.module.scss'
 
 const SplashScreen = (props) => {
     const data = useStaticQuery(graphql`
-        query {
+        query SplashQuery {
             site {
                 siteMetadata {
                     siteTitle
@@ -20,6 +20,26 @@ const SplashScreen = (props) => {
         <div className={styles.SplashScreenContainer}>
             <div className={styles.WelcomeMessageContainer}>
                 <h1>{siteTitle}</h1>
+                <span>est. 1993</span>
+            </div>
+            <div className={styles.ShowcaseContainer}>
+                <div className={styles.BackgroundImage}></div>
+                <div className={styles.ShowcaseList}>
+                    <ul>
+                        <li>
+                            <p>Reliable, Quality Engineering</p>
+                        </li>
+                        <li>
+                            <p>Using The Most Advanced Techniques</p>
+                        </li>
+                        <li>
+                            <p>& Modern Technologies</p>
+                        </li>
+                        <li>
+                            <p>To Complete Your Job On Time & Under Budget</p>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     );
