@@ -10,7 +10,7 @@ import * as styles from './Layout.module.scss';
 
 const Layout = (props) => {
     const data = useStaticQuery(graphql`
-        query {
+        query LayoutQuery {
             site {
                 siteMetadata {
                     siteTitle
