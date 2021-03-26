@@ -1,9 +1,11 @@
 import React from "react";
 
+import SplashScreen from '../components/SplashScreen'
+
 export default function Home() {
   return (
     <div>
-      <h1>Welcome!</h1>
+      <SplashScreen />
     </div>
   )
 }
