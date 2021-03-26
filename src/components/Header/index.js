@@ -9,13 +9,16 @@ const Header = (props) => (
         <nav>
             <ul>
                 <li>
-                    <Link to="/">Home</Link>
+                    <Link activeClassName={styles.NavBarLinkActive} to="/">Home</Link>
                 </li>
                 <li>
-                    <Link to="/about">About</Link>
+                    <Link activeClassName='navBar_link--active' to="/projects">Projects</Link>
                 </li>
                 <li>
-                    <Link to="/contact">Contact</Link>
+                    <Link activeClassName='navBar_link--active' to="/about">About</Link>
+                </li>
+                <li>
+                    <Link activeClassName='navBar_link--active' to="/contact">Contact</Link>
                 </li>
             </ul>
         </nav>
