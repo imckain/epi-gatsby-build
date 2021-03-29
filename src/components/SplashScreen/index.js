@@ -12,7 +12,7 @@ const SplashScreen = (props) => {
                 }
             }
         }
-    `);
+    `); 
 
     const { siteTitle } = data.site.siteMetadata;
 
