@@ -18,25 +18,25 @@ const SplashScreen = (props) => {
 
     return(
         <div className={styles.SplashScreenContainer}>
+            <div className={styles.BackgroundImage}></div>
             <div className={styles.WelcomeMessageContainer}>
                 <h1>{siteTitle}</h1>
                 <span>est. 1993</span>
             </div>
             <div className={styles.ShowcaseContainer}>
-                <div className={styles.BackgroundImage}></div>
                 <div className={styles.ShowcaseList}>
                     <ul>
                         <li>
                             <p>Reliable, Quality Engineering</p>
                         </li>
                         <li>
-                            <p>Using The Most Advanced Techniques</p>
+                            <p>Advanced Techniques</p>
                         </li>
                         <li>
-                            <p>& Modern Technologies</p>
+                            <p>Modern Technologies</p>
                         </li>
                         <li>
-                            <p>To Complete Your Job On Time & Under Budget</p>
+                            <p>Proven Record</p>
                         </li>
                     </ul>
                 </div>
