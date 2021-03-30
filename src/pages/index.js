@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
       <SplashScreen />
-      <div className={styles.SplashBanner}></div>
+      <div></div>
       <HomeContent />
     </div>
   )
