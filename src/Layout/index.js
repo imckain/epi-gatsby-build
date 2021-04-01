@@ -24,6 +24,8 @@ const Layout = (props) => {
     return(
         <Fragment>
             <Helmet>
+            <script src="https://kit.fontawesome.com/7c7f4aabd8.js" crossorigin="anonymous"></script>
+                <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" ></link>
                 <title>{siteTitle}</title>
             </Helmet>
             <div className={styles.Layout}>
