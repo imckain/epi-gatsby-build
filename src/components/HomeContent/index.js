@@ -15,7 +15,7 @@ const HomeContent = (props) => {
             <div className={styles.HomeContentContainer}>
                 <div className={styles.HomeContent}>
                     <div>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto consectetur, possimus dicta amet maiores saepe commodi architecto sunt? Recusandae explicabo, eius molestias harum eos a iste cupiditate qui deserunt ea.
+                        <p> div.{styles.HomeImg} Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto consectetur, possimus dicta amet maiores saepe commodi architecto sunt? Recusandae explicabo, eius molestias harum eos a iste cupiditate qui deserunt ea.
                         Nostrum quibusdam earum maxime pariatur sunt molestiae deleniti placeat corporis ad, commodi maiores consequuntur eveniet consequatur quam dolor vero dicta animi laborum architecto ea quas, possimus iste laudantium. Repellendus, consectetur?
                         Quo error cum rerum impedit quam, vel unde totam ducimus sit odit amet provident deserunt dignissimos dolorem non est blanditiis ad maxime corrupti culpa nam, fugit ea obcaecati? Exercitationem, sequi!
                         Unde voluptatem voluptatum dignissimos mollitia aliquid quod in commodi quas, maxime ab inventore ratione qui, pariatur animi et velit amet nulla nemo praesentium ducimus. Minus officiis veniam quas ipsa unde?
