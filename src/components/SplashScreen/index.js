@@ -20,10 +20,7 @@ const SplashScreen = (props) => {
         <div className={styles.SplashScreenContainer}>
             <div className={styles.BackgroundImage}></div>
             <div className={styles.WelcomeMessageContainer}>
-                <div>
-                    <h1>{siteTitle}</h1>
-                    <span>est. 1993</span>
-                </div>
+                <div className={styles.Logo} />
             </div>
             <div className={styles.ShowcaseContainer}>
                 <div className={styles.ShowcaseList}>

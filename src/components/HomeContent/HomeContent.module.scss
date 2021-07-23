@@ -24,28 +24,15 @@
 .HomeContentContainer {
     display: flex;
     flex-direction: row;
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 30%, var(--test-color5) 80%);
 }
 
 .HomeContent {
     width: 100%;
-    padding: 2rem;
     padding-left: 0;
-
-    div {
-        background-color: white;
-        padding: 1rem;
-        padding-left: 0;
-        box-shadow: 0 0 10px rgba(75, 74, 74, 0.274);
+    
+    p {
+        padding: 2rem;
         margin: 0;
-
-        p {
-            border: 2px solid var(--test-color6);
-            border-left: none;
-            padding: 2rem;
-            box-shadow: inset 0 0 10px rgba(100, 100, 100, 0.397);
-            margin: 0;
-        }
     }
 }
 
@@ -55,4 +42,22 @@
     width: 30%;
     align-items: center;
     padding: 2rem;
+}
+
+.PageBreak {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    span {
+        font-size: 2rem;
+        margin: 15px;
+    }
+    
+    div {
+        background: linear-gradient(to right, rgba(255, 255, 255, 0) 20%, var(--test-color6) 50%, var(--test-color6) 50%, rgba(255, 255, 255, 0) 80%);
+        width: 80%;
+        height: 3px;
+    }
 }

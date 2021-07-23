@@ -25,31 +25,27 @@
     width: 100%;
 }
 
+.Logo {
+    background-image: url('../../../static/images/EPI_Logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 50%;
+    width: 70%;
+    position: absolute;
+    top: 20%;
+}
+
 .WelcomeMessageContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
     width: 50%;
     height: 100%;
     background-color: var(--test-color6);
     z-index: -1;
-
-    div {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        border: 8px solid var(--test-color1);
-        border-radius: 50%;
-        padding: 12px 88px;
-
-        h1, span {
-            color: var(--test-color1);
-            line-height: 1.4;
-            margin: 0;
-        }
-    }
-
 }
 
 .ShowcaseContainer {
