@@ -8,3 +8,10 @@
         flex-grow: 1;
     }
 }
+
+Header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    transition: 0.4s;
+}

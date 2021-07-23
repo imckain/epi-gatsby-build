@@ -8,7 +8,7 @@ import Footer from '../components/Footer';
 import '../styles/reset.scss';
 import * as styles from './Layout.module.scss';
 
-const Layout = (props) => {
+function Layout(props) {
     const data = useStaticQuery(graphql`
         query LayoutQuery {
             site {
@@ -20,6 +20,16 @@ const Layout = (props) => {
     `);
 
     const { siteTitle } = data.site.siteMetadata;
+
+    window.onscroll = function() {fixedHeader()};
+
+    function fixedHeader() {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            document.getElementById("header").style.width = '30%'; 
+        } else {
+            document.getElementById("header").style.width = '100%'; 
+        }
+    }
     
     return(
         <Fragment>
@@ -29,7 +39,7 @@ const Layout = (props) => {
                 <title>{siteTitle}</title>
             </Helmet>
             <div className={styles.Layout}>
-                <Header siteTitle={siteTitle} />
+                <Header id="header" />
                 <main>
                     { props.children }
                 </main>
